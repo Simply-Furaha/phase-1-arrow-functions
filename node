@@ -1,0 +1,724 @@
+Script started on 2024-06-28 09:07:51+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="129" LINES="13"]
+[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ node script
+[?2004linternal/modules/cjs/loader.js:818
+  throw err;
+  ^
+
+Error: Cannot find module '/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/script'
+[90m    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:667:27)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)[39m
+[90m    at internal/main/run_main_module.js:17:47[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: []
+}
+[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ npm i
+[?2004l[?25l([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠏ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 418ms[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 418ms[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 418ms[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:@babel/code-frame: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:@babel/code-frame: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:@babel/code-frame: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠦ reify:@babel/code-frame: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:@babel/code-frame: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:@babel/code-frame: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:@babel/code-frame: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:@babel/code-frame: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:@babel/code-frame: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:@babel/code-frame: [7msill[0m [35maudit[0m bulk request {[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠇ reify:slash: [7msill[0m [35mtarball[0m no local data for json5@https://registry.npmjs.org/json5/-/json5-2.1.0.tgz. Ext[0m[K([107;97m##########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠋ reify:ansi-styles: [32;40mtiming[0m [35mreifyNode:node_modules/regjsgen[0m Completed in 2932ms[0m[K([107;97m##########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠦ reify:supports-color: [32;40mtiming[0m [35mreifyNode:node_modules/regenerator-runtime[0m Completed in 2962ms[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m har-validator@5.1.0: this library is no longer supported
+[0m[?25l([107;97m###########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂[0m) ⠇ reify:regexpu-core: [32;40mtiming[0m [35mreifyNode:node_modules/regjsparser[0m Completed in 3067ms[0m[K([107;97m###########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:verror: [32;40mtiming[0m [35mreifyNode:node_modules/estraverse[0m Completed in 3101ms[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:wordwrap: [32;40mtiming[0m [35mreifyNode:node_modules/browserslist[0m Completed in 3139ms[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠸ reify:prelude-ls: [32;40mtiming[0m [35mreifyNode:node_modules/esutils[0m Completed in 3223ms[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠇ reify:tough-cookie: [32;40mtiming[0m [35mreifyNode:node_modules/dashdash[0m Completed in 3243ms[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:he: [32;40mtiming[0m [35mreifyNode:node_modules/minimist[0m Completed in 3335ms[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠴ reify:performance-now: [32;40mtiming[0m [35mreifyNode:node_modules/http-signature[0m Completed in 3421ms[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠇ reify:fast-json-stable-stringify: [32;40mtiming[0m [35mreifyNode:node_modules/tr46[0m Completed in 3479ms[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠇ reify:har-schema: [32;40mtiming[0m [35mmetavuln:cache:get:security-advisory:semver:YpN6YES21bdtFcj77J4gyDAcoFtVQs6y6pK5[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠦ reify:unicode-match-property-ecmascript: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/unicode-match-prop[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:unicode-property-aliases-ecmascript: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/unicode-property[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+[0m[?25l([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠙ reify:unicode-match-property-value-ecmascript: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/unicode-matc[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠙ reify:union-value: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/union-value/-/union-value-1.0.0.tgz 3509[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠧ reify:split-string: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/split-string/-/split-string-3.1.0.tgz 3[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+[0m[?25l([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠋ reify:to-object-path: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/to-object-path/-/to-object-path-0.3.0[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m set-value@2.0.0: Critical bug fixed in v3.0.1, please upgrade to the latest version.
+[0m[?25l([107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m) ⠏ reify:to-regex-range: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/to-regex-range/-/to-regex-range-2.1.1[0m[K([107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m) ⠴ reify:path-type: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/path-type/-/path-type-3.0.0.tgz 3497ms (ca[0m[K([107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m) ⠙ reify:signal-exit: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.2.tgz 3675[0m[K([107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m) ⠏ reify:posix-character-classes: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/posix-character-classes/-/po[0m[K([107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m) ⠙ reify:map-cache: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/map-cache/-/map-cache-0.2.2.tgz 3526ms (ca[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m source-map-url@0.4.0: See https://github.com/lydell/source-map-url#deprecated
+[0m[?25l([107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m) ⠇ reify:p-limit: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/p-limit/-/p-limit-1.3.0.tgz 3742ms (cache mi[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+[0m[?25l([107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m) ⠴ reify:js-levenshtein: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/js-levenshtein/-/js-levenshtein-1.1.4[0m[K([107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m) ⠧ reify:mixin-deep: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/mixin-deep/-/mixin-deep-1.3.2.tgz 3793ms[0m[K([107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m) ⠏ reify:is-accessor-descriptor: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/is-accessor-descriptor/-/is-a[0m[K([107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m) ⠏ reify:is-descriptor: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/is-descriptor/-/is-descriptor-0.1.6.tg[0m[K([107;97m##############[0m[100;90m⠂⠂⠂⠂[0m) ⠏ reify:find-up: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/find-up/-/find-up-2.1.0.tgz 3773ms (cache mi[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[?25l([107;97m##############[0m[100;90m⠂⠂⠂⠂[0m) ⠦ reify:error-ex: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/error-ex/-/error-ex-1.3.2.tgz 3826ms (cache[0m[K([107;97m##############[0m[100;90m⠂⠂⠂⠂[0m) ⠴ reify:define-property: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/define-property/-/define-property-2.[0m[K([107;97m##############[0m[100;90m⠂⠂⠂⠂[0m) ⠸ reify:ignore: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/ignore/-/ignore-3.3.10.tgz 4094ms (cache miss[0m[K([107;97m##############[0m[100;90m⠂⠂⠂⠂[0m) ⠧ reify:builtin-modules: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/builtin-modules/-/builtin-modules-1.[0m[K([107;97m##############[0m[100;90m⠂⠂⠂⠂[0m) ⠧ reify:copy-descriptor: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/copy-descriptor/-/copy-descriptor-0.[0m[K([107;97m##############[0m[100;90m⠂⠂⠂⠂[0m) ⠴ reify:asn1: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/asn1/-/asn1-0.2.4.tgz 3969ms (cache miss)[0m[K([107;97m##############[0m[100;90m⠂⠂⠂⠂[0m) ⠼ reify:array-union: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/array-union/-/array-union-1.0.2.tgz 4008[0m[K([107;97m###############[0m[100;90m⠂⠂⠂[0m) ⠦ reify:assertion-error: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/assertion-error/-/assertion-error-1.[0m[K([107;97m###############[0m[100;90m⠂⠂⠂[0m) ⠼ reify:cache-base: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/cache-base/-/cache-base-1.0.1.tgz 4230ms[0m[K([107;97m###############[0m[100;90m⠂⠂⠂[0m) ⠏ reify:base: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/base/-/base-0.11.2.tgz 4287ms (cache miss)[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m source-map-resolve@0.5.2: See https://github.com/lydell/source-map-resolve#deprecated
+[0m[?25l([107;97m###############[0m[100;90m⠂⠂⠂[0m) ⠋ reify:atob: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/atob/-/atob-2.1.2.tgz 4336ms (cache miss)[0m[K([107;97m###############[0m[100;90m⠂⠂⠂[0m) ⠋ reify:escodegen: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/escodegen/-/escodegen-1.11.0.tgz 4567ms (c[0m[K([107;97m###############[0m[100;90m⠂⠂⠂[0m) ⠙ reify:@babel/plugin-transform-template-literals: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plu[0m[K([107;97m###############[0m[100;90m⠂⠂⠂[0m) ⠸ reify:debug: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 4641ms (cache miss)[0m[K([107;97m###############[0m[100;90m⠂⠂⠂[0m) ⠸ reify:cssom: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/cssom/-/cssom-0.3.4.tgz 4668ms (cache miss)[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[?25l([107;97m###############[0m[100;90m⠂⠂⠂[0m) ⠋ reify:request: [30;43mWARN[0m [35mdeprecated[0m request@2.88.0: request has been deprecated, see https://github.com/reques[0m[K([107;97m###############[0m[100;90m⠂⠂⠂[0m) ⠴ reify:@babel/plugin-transform-computed-properties: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/p[0m[K([107;97m###############[0m[100;90m⠂⠂⠂[0m) ⠇ reify:@babel/plugin-syntax-optional-catch-binding: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/p[0m[K([107;97m###############[0m[100;90m⠂⠂⠂[0m) ⠹ reify:@babel/preset-env: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/preset-env/-/preset-env-7.2[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m @babel/polyfill@7.2.5: 🚨 This package has been deprecated in favor of separate inclusion of a polyfill and regenerator-runtime (when needed). See the @babel/polyfill docs (https://babeljs.io/docs/en/babel-polyfill) for more information.
+[0m[?25l([107;97m################[0m[100;90m⠂⠂[0m) ⠧ reify:@babel/traverse: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/traverse/-/traverse-7.2.3.tgz[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠙ reify:diff: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/diff/-/diff-3.5.0.tgz 5039ms (cache miss)[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠙ reify:diff: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/diff/-/diff-3.5.0.tgz 5039ms (cache miss)[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠹ reify:diff: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/diff/-/diff-3.5.0.tgz 5039ms (cache miss)[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠸ reify:resolve: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/resolve/-/resolve-1.9.0.tgz 5661ms (cache mi[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠦ reify:ajv: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/types[0m Completed in 6280ms[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠙ reify:@babel/plugin-transform-literals: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plugin-trans[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠧ reify:@babel/plugin-transform-modules-umd: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plugin-tr[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠴ reify:@babel/plugin-transform-for-of: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plugin-transfo[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠙ reify:@babel/plugin-transform-block-scoping: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plugin-[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠙ reify:@babel/plugin-transform-block-scoping: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plugin-[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠙ reify:@babel/plugin-transform-block-scoping: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plugin-[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠸ reify:cssstyle: [32;40mtiming[0m [35mreifyNode:node_modules/jsdom[0m Completed in 6679ms[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠴ reify:regenerate-unicode-properties: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/regenerate-unicode-pro[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠴ reify:regenerate-unicode-properties: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/regenerate-unicode-pro[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠧ reify:@babel/plugin-transform-dotall-regex: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plugin-t[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠏ reify:@babel/plugin-transform-classes: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plugin-transf[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠏ reify:@babel/plugin-transform-classes: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plugin-transf[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠋ reify:@babel/plugin-transform-classes: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plugin-transf[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠙ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠹ reify:lodash: [32;40mtiming[0m [35mreifyNode:node_modules/caniuse-lite[0m Completed in 6989ms[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠹ reify:lodash: [32;40mtiming[0m [35mreifyNode:node_modules/caniuse-lite[0m Completed in 6989ms[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m core-js@2.5.7: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+[0m[?25l([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:core-js: [30;43mWARN[0m [35mdeprecated[0m core-js@2.5.7: core-js@<3.23.3 is no longer maintained and not recommended[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠋ reify:@babel/plugin-syntax-object-rest-spread: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plugi[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠋ reify:@babel/plugin-syntax-object-rest-spread: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/plugi[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠇ reify:@babel/plugin-proposal-optional-catch-binding: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠏ reify:@babel/plugin-proposal-async-generator-functions: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@ba[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠹ reify:@babel/helper-split-export-declaration: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helper[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helpers: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helpers/-/helpers-7.2.0.tgz 58[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠦ reify:@babel/helper-wrap-function: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helper-wrap-funct[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠋ reify:@babel/helper-regex: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helper-regex/-/helper-reg[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠼ reify:@babel/helper-remap-async-to-generator: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helper[0m[K([107;97m################[0m[100;90m⠂⠂[0m) ⠹ reify:@babel/helper-member-expression-to-functions: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/[0m[K([107;97m#################[0m[100;90m⠂[0m) ⠋ reify:@babel/helper-get-function-arity: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helper-get-f[0m[K([107;97m#################[0m[100;90m⠂[0m) ⠋ reify:extend-shallow: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m set-value@0.4.3: Critical bug fixed in v3.0.1, please upgrade to the latest version.
+[0m[?25l([107;97m#################[0m[100;90m⠂[0m) ⠙ reify:is-descriptor: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/is-descriptor/-/is-descriptor-1.0.2.tg[0m[K([107;97m#################[0m[100;90m⠂[0m) ⠙ reify:define-property: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/define-property/-/define-property-1.[0m[K([107;97m#################[0m[100;90m⠂[0m) ⠏ reify:define-property: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/define-property/-/define-property-0.[0m[K([107;97m#################[0m[100;90m⠂[0m) ⠧ reify:is-extendable: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/is-extendable/-/is-extendable-1.0.1.tg[0m[K([107;97m#################[0m[100;90m⠂[0m) ⠧ reify:is-glob: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/is-glob/-/is-glob-3.1.0.tgz 6856ms (cache mi[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0m[?25l([107;97m#################[0m[100;90m⠂[0m) ⠇ reify:@babel/helper-function-name: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helper-function-n[0m[K([107;97m#################[0m[100;90m⠂[0m) ⠋ reify:extend-shallow: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1[0m[K([107;97m#################[0m[100;90m⠂[0m) ⠦ reify:is-accessor-descriptor: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/is-accessor-descriptor/-/is-a[0m[K([107;97m#################[0m[100;90m⠂[0m) ⠇ reify:is-descriptor: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/is-descriptor/-/is-descriptor-1.0.2.tg[0m[K([107;97m#################[0m[100;90m⠂[0m) ⠼ reify:globals: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/globals/-/globals-11.9.0.tgz 6947ms (cache m[0m[K([107;97m##################[0m) ⠹ reify:@babel/generator: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/generator/-/generator-7.2.2.[0m[K([107;97m##################[0m) ⠇ reify:electron-to-chromium: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/electron-to-chromium/-/electron[0m[K([107;97m##################[0m) ⠹ reify:regjsparser: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/regjsparser/-/regjsparser-0.6.0.tgz 7001[0m[K([107;97m##################[0m) ⠹ reify:regjsparser: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/regjsparser/-/regjsparser-0.6.0.tgz 7001[0m[K([107;97m##################[0m) ⠇ reify:jsesc: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/jsesc/-/jsesc-2.5.2.tgz 7115ms (cache miss)[0m[K([107;97m##################[0m) ⠼ reify:regjsparser: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/regjsparser/-/regjsparser-0.6.0.tgz 7204[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0m[?25l([107;97m##################[0m) ⠴ reify:@babel/helper-define-map: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/helper-define-map/-/[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0m[?25l([107;97m##################[0m) ⠧ reify:debug: [30;43mWARN[0m [35mdeprecated[0m debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity[0m[K([107;97m##################[0m) ⠏ reify:regenerator-transform: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/regenerator-transform/-/regene[0m[K([107;97m##################[0m) ⠴ reify:@babel/core: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/core/-/core-7.2.2.tgz 7685ms (cac[0m[K([107;97m##################[0m) ⠴ reify:@babel/core: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/core/-/core-7.2.2.tgz 7685ms (cac[0m[K([107;97m##################[0m) ⠴ reify:@babel/core: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/@babel/core/-/core-7.2.2.tgz 7685ms (cac[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠧ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠙ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠙ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠧ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠧ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠙ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠹ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠏ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠙ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠧ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠙ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠙ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠧ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠧ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠋ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠴ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠇ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠙ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠸ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠧ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠦ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠙ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K([107;97m##################[0m) ⠼ reify:caniuse-lite: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.3000092[0m[K[K[?25h
+added 484 packages, and audited 485 packages in 25s
+
+[31m[1m56[22m[39m vulnerabilities (1 [1mlow[22m, 11 [33m[1mmoderate[22m[39m, 16 [31m[1mhigh[22m[39m, 28 [35m[1mcritical[22m[39m)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ npm test
+[?2004l
+> javascript-lab@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+
+[0m[0m
+[0m  index.js[0m
+  [31m  1) has a function expression called divide[0m
+  [31m  2) divide divides 2000 by 100[0m
+  [31m  3) has an arrow function called square[0m
+  [31m  4) square arrow function takes one parameter and multiplies it times itself[0m
+  [31m  5) has an arrow function called add[0m
+  [31m  6) add arrow function takes two parameters and adds them together[0m
+
+
+[92m [0m[32m 0 passing[0m[90m (555ms)[0m
+[31m  6 failing[0m
+
+[0m  1) index.js
+       has a function expression called divide:
+[0m[31m     ReferenceError: divide is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:5:12)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  2) index.js
+       divide divides 2000 by 100:
+[0m[31m     ReferenceError: divide is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:11:5)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  3) index.js
+       has an arrow function called square:
+[0m[31m     ReferenceError: square is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:15:12)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  4) index.js
+       square arrow function takes one parameter and multiplies it times itself:
+[0m[31m     ReferenceError: square is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:20:5)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  5) index.js
+       has an arrow function called add:
+[0m[31m     ReferenceError: add is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:24:12)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  6) index.js
+       add arrow function takes two parameters and adds them together:
+[0m[31m     ReferenceError: add is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:30:5)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+
+
+[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ npm test
+[?2004l
+> javascript-lab@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+
+[0m[0m
+[0m  index.js[0m
+  [32m  ✓[0m[90m has a function expression called divide[0m
+  [31m  1) divide divides 2000 by 100[0m
+  [31m  2) has an arrow function called square[0m
+  [31m  3) square arrow function takes one parameter and multiplies it times itself[0m
+  [31m  4) has an arrow function called add[0m
+  [31m  5) add arrow function takes two parameters and adds them together[0m
+
+
+[92m [0m[32m 1 passing[0m[90m (597ms)[0m
+[31m  5 failing[0m
+
+[0m  1) index.js
+       divide divides 2000 by 100:
+[0m[31m     AssertionError: expected undefined to equal 20[0m[90m
+      at Context.<anonymous> (test/indexTest.js:11:28)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  2) index.js
+       has an arrow function called square:
+[0m[31m     ReferenceError: square is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:15:12)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  3) index.js
+       square arrow function takes one parameter and multiplies it times itself:
+[0m[31m     ReferenceError: square is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:20:5)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  4) index.js
+       has an arrow function called add:
+[0m[31m     ReferenceError: add is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:24:12)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  5) index.js
+       add arrow function takes two parameters and adds them together:
+[0m[31m     ReferenceError: add is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:30:5)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+
+
+[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ npm test
+[?2004l
+> javascript-lab@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+
+[0m[0m
+[0m  index.js[0m
+  [32m  ✓[0m[90m has a function expression called divide[0m
+  [31m  1) divide divides 2000 by 100[0m
+  [31m  2) has an arrow function called square[0m
+  [31m  3) square arrow function takes one parameter and multiplies it times itself[0m
+  [31m  4) has an arrow function called add[0m
+  [31m  5) add arrow function takes two parameters and adds them together[0m
+
+
+[92m [0m[32m 1 passing[0m[90m (501ms)[0m
+[31m  5 failing[0m
+
+[0m  1) index.js
+       divide divides 2000 by 100:
+[0m[31m     AssertionError: expected undefined to equal 20[0m[90m
+      at Context.<anonymous> (test/indexTest.js:11:28)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  2) index.js
+       has an arrow function called square:
+[0m[31m     ReferenceError: square is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:15:12)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  3) index.js
+       square arrow function takes one parameter and multiplies it times itself:
+[0m[31m     ReferenceError: square is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:20:5)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  4) index.js
+       has an arrow function called add:
+[0m[31m     ReferenceError: add is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:24:12)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  5) index.js
+       add arrow function takes two parameters and adds them together:
+[0m[31m     ReferenceError: add is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:30:5)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+
+
+[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ npm test
+[?2004l
+> javascript-lab@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/babel-core/lib/transformation/file/index.js:558
+      throw err;
+      ^
+
+SyntaxError: /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/index.js: Argument name clash in strict mode (1:27)
+[0m[31m[1m>[22m[39m[90m 1 | [39m[36mconst[39m divide [33m=[39m [36mfunction[39m(a[33m,[39m a){
+ [90m   | [39m                           [31m[1m^[22m[39m
+ [90m 2 | [39m    [36mconst[39m a [33m=[39m [35m2000[39m[33m;[39m
+ [90m 3 | [39m    [36mconst[39m a [33m=[39m [35m100[39m[33m;[39m
+ [90m 4 | [39m    [36mconst[39m divide [33m=[39m a[33m/[39mbabel[33m;[39m[0m
+    at Parser.pp$5.raise (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:4454:13)
+    at Parser.pp$2.checkLVal (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3168:16)
+    at Parser.pp$3.parseFunctionBody (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:4276:12)
+    at Parser.pp$1.parseFunction (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:2386:8)
+    at Parser.pp$3.parseFunctionExpression (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3760:17)
+    at Parser.pp$3.parseExprAtom (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3722:19)
+    at Parser.pp$3.parseExprSubscripts (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3344:19)
+    at Parser.pp$1.parseVar (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:2340:24)
+    at Parser.pp$1.parseVarStatement (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:2169:8)
+    at Parser.pp$1.parseStatement (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:1861:19)
+    at Parser.pp$1.parseBlockBody (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:1778:8)
+    at Parser.parse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:1673:17)
+    at parse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:7305:37)
+    at File.parse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:485:15)
+    at File.parseCode (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:570:20)
+    at /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/pipeline.js:49:12
+    at File.wrap (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:532:16)
+    at Pipeline.transform (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/pipeline.js:47:17)
+    at Object.transformFileSync (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/api/node.js:152:10)
+    at Object.<anonymous> (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/test/helpers.js:10:27)
+[90m    at Module._compile (internal/modules/cjs/loader.js:999:30)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:863:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:708:14)[39m
+[90m    at Module.require (internal/modules/cjs/loader.js:887:19)[39m
+[90m    at require (internal/modules/cjs/helpers.js:85:18)[39m
+    at /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:247:14)
+    at Mocha.run (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:576:10)
+    at Object.<anonymous> (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/bin/_mocha:637:18)
+[90m    at Module._compile (internal/modules/cjs/loader.js:999:30)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:863:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:708:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)[39m
+[90m    at internal/main/run_main_module.js:17:47[39m {
+  pos: [33m27[39m,
+  loc: Position { line: [33m1[39m, column: [33m27[39m },
+  _babel: [33mtrue[39m,
+  codeFrame: [32m'\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1 | \u001b[39m\u001b[36mconst\u001b[39m divide \u001b[33m=\u001b[39m \u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39m a){\n'[39m +
+    [32m' \u001b[90m   | \u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n'[39m +
+    [32m' \u001b[90m 2 | \u001b[39m    \u001b[36mconst\u001b[39m a \u001b[33m=\u001b[39m \u001b[35m2000\u001b[39m\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m 3 | \u001b[39m    \u001b[36mconst\u001b[39m a \u001b[33m=\u001b[39m \u001b[35m100\u001b[39m\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m 4 | \u001b[39m    \u001b[36mconst\u001b[39m divide \u001b[33m=\u001b[39m a\u001b[33m/\u001b[39mbabel\u001b[33m;\u001b[39m\u001b[0m'[39m
+}
+[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ npm test
+[?2004l
+> javascript-lab@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/babel-core/lib/transformation/file/index.js:558
+      throw err;
+      ^
+
+SyntaxError: /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/index.js: Argument name clash in strict mode (1:27)
+[0m[31m[1m>[22m[39m[90m 1 | [39m[36mconst[39m divide [33m=[39m [36mfunction[39m(a[33m,[39m a){
+ [90m   | [39m                           [31m[1m^[22m[39m
+ [90m 2 | [39m    [36mconst[39m a [33m=[39m [35m2000[39m[33m;[39m
+ [90m 3 | [39m    [36mconst[39m a [33m=[39m [35m100[39m[33m;[39m
+ [90m 4 | [39m    [36mconst[39m divide [33m=[39m a[33m/[39mb[33m;[39m[0m
+    at Parser.pp$5.raise (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:4454:13)
+    at Parser.pp$2.checkLVal (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3168:16)
+    at Parser.pp$3.parseFunctionBody (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:4276:12)
+    at Parser.pp$1.parseFunction (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:2386:8)
+    at Parser.pp$3.parseFunctionExpression (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3760:17)
+    at Parser.pp$3.parseExprAtom (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3722:19)
+    at Parser.pp$3.parseExprSubscripts (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:3344:19)
+    at Parser.pp$1.parseVar (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:2340:24)
+    at Parser.pp$1.parseVarStatement (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:2169:8)
+    at Parser.pp$1.parseStatement (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:1861:19)
+    at Parser.pp$1.parseBlockBody (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:1778:8)
+    at Parser.parse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:1673:17)
+    at parse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabylon[24m/lib/index.js:7305:37)
+    at File.parse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:485:15)
+    at File.parseCode (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:570:20)
+    at /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/pipeline.js:49:12
+    at File.wrap (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:532:16)
+    at Pipeline.transform (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/pipeline.js:47:17)
+    at Object.transformFileSync (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/api/node.js:152:10)
+    at Object.<anonymous> (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/test/helpers.js:10:27)
+[90m    at Module._compile (internal/modules/cjs/loader.js:999:30)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:863:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:708:14)[39m
+[90m    at Module.require (internal/modules/cjs/loader.js:887:19)[39m
+[90m    at require (internal/modules/cjs/helpers.js:85:18)[39m
+    at /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:247:14)
+    at Mocha.run (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:576:10)
+    at Object.<anonymous> (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/bin/_mocha:637:18)
+[90m    at Module._compile (internal/modules/cjs/loader.js:999:30)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:863:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:708:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)[39m
+[90m    at internal/main/run_main_module.js:17:47[39m {
+  pos: [33m27[39m,
+  loc: Position { line: [33m1[39m, column: [33m27[39m },
+  _babel: [33mtrue[39m,
+  codeFrame: [32m'\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1 | \u001b[39m\u001b[36mconst\u001b[39m divide \u001b[33m=\u001b[39m \u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39m a){\n'[39m +
+    [32m' \u001b[90m   | \u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n'[39m +
+    [32m' \u001b[90m 2 | \u001b[39m    \u001b[36mconst\u001b[39m a \u001b[33m=\u001b[39m \u001b[35m2000\u001b[39m\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m 3 | \u001b[39m    \u001b[36mconst\u001b[39m a \u001b[33m=\u001b[39m \u001b[35m100\u001b[39m\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m 4 | \u001b[39m    \u001b[36mconst\u001b[39m divide \u001b[33m=\u001b[39m a\u001b[33m/\u001b[39mb\u001b[33m;\u001b[39m\u001b[0m'[39m
+}
+[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ npm test
+[?2004l
+> javascript-lab@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/babel-core/lib/transformation/file/index.js:558
+      throw err;
+      ^
+
+TypeError: /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/index.js: Duplicate declaration "a"
+[0m [90m 1 | [39m[36mconst[39m divide [33m=[39m [36mfunction[39m(a[33m,[39m b){
+[31m[1m>[22m[39m[90m 2 | [39m    [36mconst[39m a [33m=[39m [35m2000[39m[33m;[39m
+ [90m   | [39m          [31m[1m^[22m[39m
+ [90m 3 | [39m    [36mconst[39m a [33m=[39m [35m100[39m[33m;[39m
+ [90m 4 | [39m    [36mconst[39m divide [33m=[39m a[33m/[39mb[33m;[39m
+ [90m 5 | [39m[36mreturn[39m(divide)[33m;[39m[0m
+    at File.buildCodeFrameError (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:427:15)
+    at Scope.checkBlockScopedCollisions (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:398:27)
+    at Scope.registerBinding (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:592:16)
+    at Scope.registerDeclaration (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:496:14)
+    at Object.BlockScoped (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:244:28)
+    at Object.newFn (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/visitors.js:318:17)
+    at NodePath._call (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:76:18)
+    at NodePath.call (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:44:14)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:105:12)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitMultiple (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:103:17)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:190:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitSingle (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:108:19)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:192:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitSingle (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:108:19)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:192:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitMultiple (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:103:17)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:190:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitMultiple (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:103:17)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:190:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at traverse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:79:12)
+    at NodePath.traverse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/index.js:144:25)
+    at Scope._crawl (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:828:10)
+    at Scope.crawl (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:749:10)
+    at Scope.init (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:744:32)
+    at NodePath.setScope (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:151:30)
+    at NodePath.setContext (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:166:8)
+    at File._addAst (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:497:8)
+    at File.addAst (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:505:10)
+    at File.parseCode (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:571:10)
+    at /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/pipeline.js:49:12
+    at File.wrap (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:532:16)
+    at Pipeline.transform (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/pipeline.js:47:17)
+    at Object.transformFileSync (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/api/node.js:152:10)
+    at Object.<anonymous> (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/test/helpers.js:10:27)
+[90m    at Module._compile (internal/modules/cjs/loader.js:999:30)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:863:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:708:14)[39m
+[90m    at Module.require (internal/modules/cjs/loader.js:887:19)[39m
+[90m    at require (internal/modules/cjs/helpers.js:85:18)[39m
+    at /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:247:14)
+    at Mocha.run (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:576:10)
+    at Object.<anonymous> (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/bin/_mocha:637:18)
+[90m    at Module._compile (internal/modules/cjs/loader.js:999:30)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:863:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:708:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)[39m
+[90m    at internal/main/run_main_module.js:17:47[39m {
+  loc: Position { line: [33m2[39m, column: [33m10[39m },
+  _babel: [33mtrue[39m,
+  codeFrame: [32m'\u001b[0m \u001b[90m 1 | \u001b[39m\u001b[36mconst\u001b[39m divide \u001b[33m=\u001b[39m \u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39m b){\n'[39m +
+    [32m'\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 | \u001b[39m    \u001b[36mconst\u001b[39m a \u001b[33m=\u001b[39m \u001b[35m2000\u001b[39m\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m   | \u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n'[39m +
+    [32m' \u001b[90m 3 | \u001b[39m    \u001b[36mconst\u001b[39m a \u001b[33m=\u001b[39m \u001b[35m100\u001b[39m\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m 4 | \u001b[39m    \u001b[36mconst\u001b[39m divide \u001b[33m=\u001b[39m a\u001b[33m/\u001b[39mb\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m 5 | \u001b[39m\u001b[36mreturn\u001b[39m(divide)\u001b[33m;\u001b[39m\u001b[0m'[39m
+}
+[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ npm test
+[?2004l
+> javascript-lab@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/babel-core/lib/transformation/file/index.js:558
+      throw err;
+      ^
+
+TypeError: /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/index.js: Duplicate declaration "a"
+[0m [90m 1 | [39m[36mconst[39m divide [33m=[39m [36mfunction[39m(a[33m,[39m b){
+[31m[1m>[22m[39m[90m 2 | [39m    [36mconst[39m a [33m=[39m [35m2000[39m[33m;[39m
+ [90m   | [39m          [31m[1m^[22m[39m
+ [90m 3 | [39m    [36mconst[39m a [33m=[39m [35m100[39m[33m;[39m
+ [90m 4 | [39m    [36mconst[39m divide [33m=[39m a[33m/[39mb[33m;[39m
+ [90m 5 | [39m[36mreturn[39m(divide)[33m;[39m[0m
+    at File.buildCodeFrameError (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:427:15)
+    at Scope.checkBlockScopedCollisions (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:398:27)
+    at Scope.registerBinding (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:592:16)
+    at Scope.registerDeclaration (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:496:14)
+    at Object.BlockScoped (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:244:28)
+    at Object.newFn (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/visitors.js:318:17)
+    at NodePath._call (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:76:18)
+    at NodePath.call (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:44:14)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:105:12)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitMultiple (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:103:17)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:190:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitSingle (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:108:19)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:192:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitSingle (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:108:19)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:192:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitMultiple (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:103:17)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:190:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitMultiple (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:103:17)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:190:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at traverse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:79:12)
+    at NodePath.traverse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/index.js:144:25)
+    at Scope._crawl (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:828:10)
+    at Scope.crawl (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:749:10)
+    at Scope.init (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:744:32)
+    at NodePath.setScope (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:151:30)
+    at NodePath.setContext (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:166:8)
+    at File._addAst (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:497:8)
+    at File.addAst (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:505:10)
+    at File.parseCode (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:571:10)
+    at /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/pipeline.js:49:12
+    at File.wrap (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:532:16)
+    at Pipeline.transform (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/pipeline.js:47:17)
+    at Object.transformFileSync (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/api/node.js:152:10)
+    at Object.<anonymous> (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/test/helpers.js:10:27)
+[90m    at Module._compile (internal/modules/cjs/loader.js:999:30)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:863:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:708:14)[39m
+[90m    at Module.require (internal/modules/cjs/loader.js:887:19)[39m
+[90m    at require (internal/modules/cjs/helpers.js:85:18)[39m
+    at /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:247:14)
+    at Mocha.run (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:576:10)
+    at Object.<anonymous> (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/bin/_mocha:637:18)
+[90m    at Module._compile (internal/modules/cjs/loader.js:999:30)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:863:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:708:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)[39m
+[90m    at internal/main/run_main_module.js:17:47[39m {
+  loc: Position { line: [33m2[39m, column: [33m10[39m },
+  _babel: [33mtrue[39m,
+  codeFrame: [32m'\u001b[0m \u001b[90m 1 | \u001b[39m\u001b[36mconst\u001b[39m divide \u001b[33m=\u001b[39m \u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39m b){\n'[39m +
+    [32m'\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 | \u001b[39m    \u001b[36mconst\u001b[39m a \u001b[33m=\u001b[39m \u001b[35m2000\u001b[39m\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m   | \u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n'[39m +
+    [32m' \u001b[90m 3 | \u001b[39m    \u001b[36mconst\u001b[39m a \u001b[33m=\u001b[39m \u001b[35m100\u001b[39m\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m 4 | \u001b[39m    \u001b[36mconst\u001b[39m divide \u001b[33m=\u001b[39m a\u001b[33m/\u001b[39mb\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m 5 | \u001b[39m\u001b[36mreturn\u001b[39m(divide)\u001b[33m;\u001b[39m\u001b[0m'[39m
+}
+[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ npm test
+[?2004l
+> javascript-lab@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/babel-core/lib/transformation/file/index.js:558
+      throw err;
+      ^
+
+TypeError: /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/index.js: Duplicate declaration "a"
+[0m [90m 1 | [39m[36mconst[39m divide [33m=[39m [36mfunction[39m(a[33m,[39m b){
+[31m[1m>[22m[39m[90m 2 | [39m    [36mconst[39m a [33m=[39m [35m2000[39m[33m;[39m
+ [90m   | [39m          [31m[1m^[22m[39m
+ [90m 3 | [39m    [36mconst[39m b [33m=[39m [35m100[39m[33m;[39m
+ [90m 4 | [39m    [36mconst[39m divide [33m=[39m a[33m/[39mb[33m;[39m
+ [90m 5 | [39m[36mreturn[39m(divide)[33m;[39m[0m
+    at File.buildCodeFrameError (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:427:15)
+    at Scope.checkBlockScopedCollisions (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:398:27)
+    at Scope.registerBinding (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:592:16)
+    at Scope.registerDeclaration (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:496:14)
+    at Object.BlockScoped (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:244:28)
+    at Object.newFn (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/visitors.js:318:17)
+    at NodePath._call (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:76:18)
+    at NodePath.call (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:44:14)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:105:12)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitMultiple (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:103:17)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:190:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitSingle (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:108:19)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:192:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitSingle (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:108:19)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:192:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitMultiple (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:103:17)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:190:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitMultiple (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:103:17)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:190:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at traverse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:79:12)
+    at NodePath.traverse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/index.js:144:25)
+    at Scope._crawl (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:828:10)
+    at Scope.crawl (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:749:10)
+    at Scope.init (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:744:32)
+    at NodePath.setScope (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:151:30)
+    at NodePath.setContext (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:166:8)
+    at File._addAst (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:497:8)
+    at File.addAst (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:505:10)
+    at File.parseCode (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:571:10)
+    at /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/pipeline.js:49:12
+    at File.wrap (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:532:16)
+    at Pipeline.transform (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/pipeline.js:47:17)
+    at Object.transformFileSync (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/api/node.js:152:10)
+    at Object.<anonymous> (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/test/helpers.js:10:27)
+[90m    at Module._compile (internal/modules/cjs/loader.js:999:30)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:863:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:708:14)[39m
+[90m    at Module.require (internal/modules/cjs/loader.js:887:19)[39m
+[90m    at require (internal/modules/cjs/helpers.js:85:18)[39m
+    at /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:247:14)
+    at Mocha.run (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:576:10)
+    at Object.<anonymous> (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/bin/_mocha:637:18)
+[90m    at Module._compile (internal/modules/cjs/loader.js:999:30)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:863:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:708:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)[39m
+[90m    at internal/main/run_main_module.js:17:47[39m {
+  loc: Position { line: [33m2[39m, column: [33m10[39m },
+  _babel: [33mtrue[39m,
+  codeFrame: [32m'\u001b[0m \u001b[90m 1 | \u001b[39m\u001b[36mconst\u001b[39m divide \u001b[33m=\u001b[39m \u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39m b){\n'[39m +
+    [32m'\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 | \u001b[39m    \u001b[36mconst\u001b[39m a \u001b[33m=\u001b[39m \u001b[35m2000\u001b[39m\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m   | \u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n'[39m +
+    [32m' \u001b[90m 3 | \u001b[39m    \u001b[36mconst\u001b[39m b \u001b[33m=\u001b[39m \u001b[35m100\u001b[39m\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m 4 | \u001b[39m    \u001b[36mconst\u001b[39m divide \u001b[33m=\u001b[39m a\u001b[33m/\u001b[39mb\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m 5 | \u001b[39m\u001b[36mreturn\u001b[39m(divide)\u001b[33m;\u001b[39m\u001b[0m'[39m
+}
+[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ npm test
+[?2004l
+> javascript-lab@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/babel-core/lib/transformation/file/index.js:558
+      throw err;
+      ^
+
+TypeError: /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/index.js: Duplicate declaration "a"
+[0m [90m 1 | [39m[36mconst[39m divide [33m=[39m [36mfunction[39m(a[33m,[39m b){
+[31m[1m>[22m[39m[90m 2 | [39m    [36mconst[39m a [33m=[39m [35m2000[39m[33m;[39m
+ [90m   | [39m          [31m[1m^[22m[39m
+ [90m 3 | [39m    [36mconst[39m b [33m=[39m [35m100[39m[33m;[39m
+ [90m 4 | [39m    [36mconst[39m divide [33m=[39m a[33m/[39mb[33m;[39m
+ [90m 5 | [39m[36mreturn[39m(divide)[33m;[39m[0m
+    at File.buildCodeFrameError (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:427:15)
+    at Scope.checkBlockScopedCollisions (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:398:27)
+    at Scope.registerBinding (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:592:16)
+    at Scope.registerDeclaration (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:496:14)
+    at Object.BlockScoped (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:244:28)
+    at Object.newFn (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/visitors.js:318:17)
+    at NodePath._call (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:76:18)
+    at NodePath.call (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:44:14)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:105:12)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitMultiple (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:103:17)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:190:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitSingle (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:108:19)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:192:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitSingle (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:108:19)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:192:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitMultiple (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:103:17)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:190:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at NodePath.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:115:19)
+    at TraversalContext.visitQueue (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:150:16)
+    at TraversalContext.visitMultiple (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:103:17)
+    at TraversalContext.visit (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/context.js:190:19)
+    at Function.traverse.node (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:114:17)
+    at traverse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/index.js:79:12)
+    at NodePath.traverse (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/index.js:144:25)
+    at Scope._crawl (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:828:10)
+    at Scope.crawl (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:749:10)
+    at Scope.init (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/scope/index.js:744:32)
+    at NodePath.setScope (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:151:30)
+    at NodePath.setContext (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-traverse[24m/lib/path/context.js:166:8)
+    at File._addAst (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:497:8)
+    at File.addAst (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:505:10)
+    at File.parseCode (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:571:10)
+    at /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/pipeline.js:49:12
+    at File.wrap (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/file/index.js:532:16)
+    at Pipeline.transform (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/transformation/pipeline.js:47:17)
+    at Object.transformFileSync (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mbabel-core[24m/lib/api/node.js:152:10)
+    at Object.<anonymous> (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/test/helpers.js:10:27)
+[90m    at Module._compile (internal/modules/cjs/loader.js:999:30)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:863:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:708:14)[39m
+[90m    at Module.require (internal/modules/cjs/loader.js:887:19)[39m
+[90m    at require (internal/modules/cjs/helpers.js:85:18)[39m
+    at /home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:247:14)
+    at Mocha.run (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/lib/mocha.js:576:10)
+    at Object.<anonymous> (/home/furaha/Development/code/se-prep/phase-1/phase-1-arrow-functions/node_modules/[4mmocha[24m/bin/_mocha:637:18)
+[90m    at Module._compile (internal/modules/cjs/loader.js:999:30)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:863:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:708:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)[39m
+[90m    at internal/main/run_main_module.js:17:47[39m {
+  loc: Position { line: [33m2[39m, column: [33m10[39m },
+  _babel: [33mtrue[39m,
+  codeFrame: [32m'\u001b[0m \u001b[90m 1 | \u001b[39m\u001b[36mconst\u001b[39m divide \u001b[33m=\u001b[39m \u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39m b){\n'[39m +
+    [32m'\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 | \u001b[39m    \u001b[36mconst\u001b[39m a \u001b[33m=\u001b[39m \u001b[35m2000\u001b[39m\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m   | \u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n'[39m +
+    [32m' \u001b[90m 3 | \u001b[39m    \u001b[36mconst\u001b[39m b \u001b[33m=\u001b[39m \u001b[35m100\u001b[39m\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m 4 | \u001b[39m    \u001b[36mconst\u001b[39m divide \u001b[33m=\u001b[39m a\u001b[33m/\u001b[39mb\u001b[33m;\u001b[39m\n'[39m +
+    [32m' \u001b[90m 5 | \u001b[39m\u001b[36mreturn\u001b[39m(divide)\u001b[33m;\u001b[39m\u001b[0m'[39m
+}
+[?2004h]0;furaha@furaha: ~/Development/code/se-prep/phase-1/phase-1-arrow-functions[01;32mfuraha@furaha[00m:[01;34m~/Development/code/se-prep/phase-1/phase-1-arrow-functions[00m$ npm test
+[?2004l
+> javascript-lab@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+
+[0m[0m
+[0m  index.js[0m
+  [32m  ✓[0m[90m has a function expression called divide[0m
+  [32m  ✓[0m[90m divide divides 2000 by 100[0m
+  [31m  1) has an arrow function called square[0m
+  [31m  2) square arrow function takes one parameter and multiplies it times itself[0m
+  [31m  3) has an arrow function called add[0m
+  [31m  4) add arrow function takes two parameters and adds them together[0m
+
+
+[92m [0m[32m 2 passing[0m[90m (498ms)[0m
+[31m  4 failing[0m
+
+[0m  1) index.js
+       has an arrow function called square:
+[0m[31m     ReferenceError: square is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:15:12)
+      at processImmediate (internal/timers.js:461:21)
+[0m
+[0m  2) index.js
+       square arrow function takes one parameter and multiplies it times itself:
+[0m[31m     ReferenceError: square is not defined[0m[90m
+      at Context.<anonymous> (test/indexTest.js:20:5)
+      at processImmediate (in
